@@ -1,0 +1,149 @@
+@import './main.css';
+
+.page-visit {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.sections-qa-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.section-qa {
+  width: 220px;
+  height: calc(100vh - 30px);
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: relative;
+  padding: 25px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.section-qa_sticky {
+  width: 216px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  z-index: 2;
+  cursor: default;
+}
+
+.section-qa .section-qa-title {
+  position: absolute;
+  top: 223px;
+  left: 25px;
+  max-width: 140px;
+}
+
+.section-qa .section-qa-subtitle {
+  position: absolute;
+  top: 513px;
+  left: 25px;
+  max-width: 332px;
+}
+
+.section-qa_sticky .section-qa-subtitle {
+  max-width: 154px;
+}
+
+.section-qa .section-qa-index {
+  position: absolute;
+  top: 726px;
+  left: 25px;
+  font-size: 13px;
+}
+
+.section-qa .section-qa-subtitle {
+  display: none;
+}
+
+.section-qa_sticky .section-qa-subtitle {
+  display: block;
+}
+
+.section-qa .page-arrow-right {
+  width: 151px;
+  height: 17px;
+  background: url('../img/visit/arrow_right.png') center /cover;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+
+.section-qa::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.section-qa_sticky::after {
+  width: 30px;
+  height: 940px;
+  background: url('../img/visit/divider_000.png') center /cover;
+}
+
+.section-qa_1::after {
+  width: 32px;
+  height: 929px;
+  background: url('../img/visit/divider_001.png') center /cover;
+}
+
+.section-qa_2::after {
+  width: 18px;
+  height: 930px;
+  background: url('../img/visit/divider_002.png') center /cover;
+}
+
+.section-qa_3::after {
+  width: 32px;
+  height: 929px;
+  background: url('../img/visit/divider_003.png') center /cover;
+}
+
+.section-qa_4::after {
+  width: 36px;
+  height: 931px;
+  background: url('../img/visit/divider_004.png') center /cover;
+}
+
+.section-qa_5::after {
+  width: 23px;
+  height: 929px;
+  background: url('../img/visit/divider_005.png') center /cover;
+}
+
+.section-qa_6::after {
+  width: 33px;
+  height: 990px;
+  background: url('../img/visit/divider_006.png') center /cover;
+}
+
+.section-qa_7::after {
+  width: 32px;
+  height: 929px;
+  background: url('../img/visit/divider_007.png') center /cover;
+}
+
+.section-qa_active {
+  width: 450px;
+}
+
+.section-qa_active .section-qa-subtitle {
+  display: block;
+}
