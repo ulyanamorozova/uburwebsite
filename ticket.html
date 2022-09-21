@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Театр Медуз</title>
+  <link rel="stylesheet"
+        href="assets/css/ticket.css">
+</head>
+
+<body>
+  <div id="main">
+    <div class="page-ticket">
+      <div class="container">
+        <a href="index.html"
+           class="link-back link-back_white"></a>
+
+        <p class="page-text">наведи на медуз-проводников, чтобы выбрать зону, в которой будешь смотреть спектакль</p>
+
+        <div class="page-arrow-down"></div>
+
+        <div class="zones-container">
+          <div class="zone-select zone-select_1">
+            <div class="zone-select-content">
+              <button class="zone-select-button"
+                      data-index="1"
+                      data-zone="вход в дом"></button>
+              <span class="zone-select-tooltip">вход в дом</span>
+            </div>
+          </div>
+
+          <div class="zone-select zone-select_2">
+            <div class="zone-select-content">
+              <button class="zone-select-button"
+                      data-index="2"
+                      data-zone="сцена для террасы //2"></button>
+              <span class="zone-select-tooltip">сцена для террасы //2</span>
+            </div>
+          </div>
+
+          <div class="zone-select zone-select_3">
+            <div class="zone-select-content">
+              <button class="zone-select-button"
+                      data-index="3"
+                      data-zone="кафе"></button>
+              <span class="zone-select-tooltip">кафе</span>
+            </div>
+          </div>
+
+          <div class="zone-select zone-select_4">
+            <div class="zone-select-content">
+              <button class="zone-select-button"
+                      data-index="4"
+                      data-zone="сцена для террасы //1"></button>
+              <span class="zone-select-tooltip">сцена для террасы //1</span>
+            </div>
+          </div>
+
+          <div class="zone-select zone-select_5">
+            <div class="zone-select-content">
+              <button class="zone-select-button"
+                      data-index="5"
+                      data-zone="репетиционная"></button>
+              <span class="zone-select-tooltip">репетиционная</span>
+            </div>
+          </div>
+
+          <div class="zone-select zone-select_6">
+            <div class="zone-select-content">
+              <button class="zone-select-button"
+                      data-index="6"
+                      data-zone="общение с гостями"></button>
+              <span class="zone-select-tooltip">общение с гостями</span>
+            </div>
+          </div>
+
+          <div class="zone-select zone-select_7">
+            <div class="zone-select-content">
+              <button class="zone-select-button"
+                      data-index="7"
+                      data-zone="Главная сцена"></button>
+              <span class="zone-select-tooltip">Главная сцена</span>
+            </div>
+          </div>
+
+          <div class="zones-text">
+            после выбора спектакля, зоны на билете появятся соответствующие данные,
+            тебе остается только распечатать его или показать скриншот
+          </div>
+        </div>
+
+        <div class="ticket-section">
+          <div class="ticket-section-text"></div>
+          <div class="ticket">
+            <div class="ticket-info">
+              <div class="ticket-info-fields">
+                <div class="ticket-info-field ticket-info-field_zone">
+                  Зона: <span class="ticket-selected-zone"></span>
+                </div>
+                <div class="ticket-info-field ticket-info-field_event">
+                  Событие: Лекция "Как устроена медуза?"
+                </div>
+                <div class="ticket-info-field ticket-info-field_details">
+                  <span class="code">// 0021560</span>
+                  <span class="role">Гость театра</span>
+                </div>
+              </div>
+            </div>
+            <div class="ticket-cover"></div>
+            <div class="ticket-triangles"></div>
+          </div>
+          <button class="ticket-download">Скачать</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/script.js"
+          type="text/javascript"></script>
+</body>
+
+</html>
