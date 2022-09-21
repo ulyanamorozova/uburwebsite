@@ -1,0 +1,92 @@
+@import './main.css';
+
+.page-afisha {
+  background-color: #ffffff;
+}
+
+.page-content {
+  height: 2000px;
+}
+
+.sidebar {
+  background: url('../img/afisha/afisha_text.png') center /cover repeat-y;
+  background-size: 326px 966px;
+  background-position: 100%;
+}
+
+.spectacle-card {
+  position: absolute;
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  margin: auto;
+}
+
+.spectacle-card-content {
+  position: relative;
+}
+
+.spectacle-card-content .spectacle-number {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.spectacle-card-content .spectacle-name {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  max-width: 63%;
+  text-align: right;
+}
+
+.spectacle-card-content .spectacle-subtitle {
+  position: absolute;
+  top: 45px;
+  right: -60px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.spectacle-card_1 {
+  top: 0;
+  left: 600px;
+}
+
+.spectacle-card_2 {
+  top: 175px;
+  left: 100px;
+}
+
+.spectacle-card_3 {
+  top: 500px;
+  left: 500px;
+}
+
+.spectacle-card_4 {
+  top: 670px;
+  left: -100px;
+}
+
+.spectacle-card_5 {
+  top: 1116px;
+  left: 75px;
+}
+
+.spectacle-card_6 {
+  top: 1338px;
+  right: 0;
+}
+
+.spectacle-card_7 {
+  top: 1618px;
+  left: 329px;
+}
+
+.text-indicator {
+  position: absolute;
+  width: 200px;
+  top: 430px;
+  left: 415px;
+}
