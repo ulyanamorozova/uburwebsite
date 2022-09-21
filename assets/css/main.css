@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("../fonts/SuisseIntl-Regular.otf") format("opentype");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Suisse Intl", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: #EEEEEE;
+  font-size: 1rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+}
+
+p {
+  font-size: 13px;
+}
+
+button {
+  border: 1px solid #000000;
+  background-color: #EEEEEE;
+  font-size: 13px;
+  font-family: "Suisse Intl", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+input {
+  display: inline-block;
+  width: 195px;
+  background: none;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #000000;
+  padding: 6px 0;
+  color: #000000;
+  font-family: "Suisse Intl", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 23px;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.sidebar {
+  width: 35%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 25px;
+  font-size: 13px;
+}
+
+.sidebar-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+}
+
+.sidebar-text {
+  max-width: 110px;
+  padding-top: 90px;
+}
+
+.sidebar-date {
+  padding-top: 60%;
+}
+
+.sidebar-date .month {
+  margin: 30px 0;
+}
+
+.link-back {
+  display: inline-block;
+  width: 50px;
+  height: 45px;
+  background: url('../img/button_arrow_back.png') center /cover;
+  -webkit-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+}
+
+.link-back_white {
+  background: url('../img/button_arrow_back_white.png') center /cover;
+}
+
+.page-layout {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-content {
+  width: 65%;
+  position: relative;
+}
+
+.page-arrow-down {
+  position: absolute;
+  top: 288px;
+  right: 0;
+  width: 17px;
+  height: 151px;
+  background: url('../img/arrow_down.png') center /cover;
+}
