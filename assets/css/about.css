@@ -1,0 +1,45 @@
+@import './main.css';
+
+.sidebar-content {
+  width: 300px;
+  height: 100%;
+}
+
+.sidebar-text {
+  max-width: 190px;
+}
+
+.sidebar-text-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.zone-section {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.zone-name,
+.zone-number {
+  font-size: 13px;
+  position: absolute;
+}
+
+.zone-name {
+  -webkit-transform: translate(-119px, -300px) rotate(-90deg);
+  -ms-transform: translate(-119px, -300px) rotate(-90deg);
+  transform: translate(-119px, -300px) rotate(-90deg);
+  width: 204px;
+}
+
+.zone-number {
+  -webkit-transform: translate(-35px, -30px) rotate(-90deg);
+  -ms-transform: translate(-35px, -30px) rotate(-90deg);
+  transform: translate(-35px, -30px) rotate(-90deg);
+}
