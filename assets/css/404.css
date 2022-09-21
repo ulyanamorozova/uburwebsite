@@ -1,0 +1,30 @@
+@import './main.css';
+
+.page-404 {
+  background-color: #E4E4E4;
+}
+
+.link-back {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.page-404 .container {
+  height: 100vh;
+  background: url('../img/404_bg.jpg') center /cover no-repeat;
+}
+
+.text-1 {
+  width: 248px;
+  position: absolute;
+  bottom: 205px;
+  right: 253px;
+}
+
+.text-2 {
+  width: 248px;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
