@@ -1,0 +1,217 @@
+@import './main.css';
+
+.home-page {
+  background: url('../img/home/home_background.png') center /cover;
+  background-size: 1440px 990px;
+  height: 100vh;
+}
+
+.meduza-shape {
+  position: absolute;
+  font-size: 0;
+  -webkit-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+  z-index: 1;
+}
+
+a.meduza-shape {
+  z-index: 2;
+}
+
+.meduza-shape_1 {
+  width: 265px;
+  height: 315px;
+  top: 19px;
+  left: 22px;
+  background: url('../img/home/meduza_shape_1.png') center /cover;
+}
+
+.meduza-shape_1:hover {
+  background: url('../img/home/meduza_shape_1_inverted.png') center /cover;
+}
+
+.meduza-shape_2 {
+  width: 284px;
+  height: 297px;
+  top: 250px;
+  left: 38px;
+  background: url('../img/home/meduza_shape_2.png') center /cover;
+}
+
+.meduza-shape_3 {
+  width: 221px;
+  height: 165px;
+  top: 564px;
+  left: 24px;
+  background: url('../img/home/meduza_shape_3.png') center /cover;
+}
+
+.meduza-shape_4 {
+  width: 221px;
+  height: 131px;
+  top: 739px;
+  left: 24px;
+  background: url('../img/home/meduza_shape_4.png') center /cover;
+}
+
+.meduza-shape_5 {
+  width: 208px;
+  height: 220px;
+  top: 9px;
+  left: 290px;
+  background: url('../img/home/meduza_shape_5.png') center /cover;
+}
+
+.meduza-shape_6 {
+  width: 248px;
+  height: 220px;
+  top: 256px;
+  left: 332px;
+  background: url('../img/home/meduza_shape_6.png') center /cover;
+}
+
+.meduza-shape_6:hover {
+  background: url('../img/home/meduza_shape_6_inverted.png') center /cover;
+}
+
+.meduza-shape_7 {
+  width: 212px;
+  height: 202px;
+  top: 488px;
+  left: 275px;
+  background: url('../img/home/meduza_shape_7.png') center /cover;
+}
+
+.meduza-shape_8 {
+  width: 140px;
+  height: 189px;
+  top: 669px;
+  left: 245px;
+  background: url('../img/home/meduza_shape_8.png') center /cover;
+}
+
+.meduza-shape_9 {
+  width: 312px;
+  height: 294px;
+  top: 12px;
+  left: 522px;
+  background: url('../img/home/meduza_shape_9.png') center /cover;
+}
+
+.meduza-shape_10 {
+  width: 254px;
+  height: 191px;
+  top: 346px;
+  left: 428px;
+  background: url('../img/home/meduza_shape_10.png') center /cover;
+}
+
+.meduza-shape_11 {
+  width: 288px;
+  height: 301px;
+  top: 382px;
+  left: 495px;
+  background: url('../img/home/meduza_shape_11.png') center /cover;
+}
+
+.meduza-shape_12 {
+  width: 289px;
+  height: 184px;
+  top: 697px;
+  left: 410px;
+  background: url('../img/home/meduza_shape_12.png') center /cover;
+}
+
+.meduza-shape_12:hover {
+  background: url('../img/home/meduza_shape_12_inverted.png') center /cover;
+}
+
+.meduza-shape_13 {
+  width: 342px;
+  height: 207px;
+  top: 25px;
+  right: 244px;
+  background: url('../img/home/meduza_shape_13.png') center /cover;
+}
+
+.meduza-shape_13:hover {
+  background: url('../img/home/meduza_shape_13_inverted.png') center /cover;
+}
+
+.meduza-shape_14 {
+  width: 159px;
+  height: 325px;
+  top: 250px;
+  right: 540px;
+  background: url('../img/home/meduza_shape_14.png') center /cover;
+}
+
+.meduza-shape_15 {
+  width: 224px;
+  height: 336px;
+  top: 545px;
+  right: 506px;
+  background: url('../img/home/meduza_shape_15.png') center /cover;
+}
+
+.meduza-shape_16 {
+  width: 214px;
+  height: 205px;
+  top: 19px;
+  right: 45px;
+  background: url('../img/home/meduza_shape_16.png') center /cover;
+}
+
+.meduza-shape_17 {
+  width: 324px;
+  height: 214px;
+  top: 237px;
+  right: 36px;
+  background: url('../img/home/meduza_shape_17.png') center /cover;
+}
+
+.meduza-shape_18 {
+  width: 297px;
+  height: 222px;
+  top: 397px;
+  right: 128px;
+  background: url('../img/home/meduza_shape_18.png') center /cover;
+}
+
+.meduza-shape_18:hover {
+  background: url('../img/home/meduza_shape_18_inverted.png') center /cover;
+}
+
+.meduza-shape_19 {
+  width: 219px;
+  height: 218px;
+  top: 643px;
+  right: 36px;
+  background: url('../img/home/meduza_shape_19.png') center /cover;
+  cursor: pointer;
+}
+
+.meduza-shape_19:hover {
+  background: url('../img/home/meduza_shape_19_hover.png') center /cover;
+}
+
+.meduza-shape_19 .meduza-shape_20 {
+  width: 251px;
+  height: 199px;
+  top: 452px;
+  right: 283px;
+  background: url('../img/home/meduza_shape_20.png') center /cover;
+}
+
+.meduza-shape_21 {
+  width: 240px;
+  height: 221px;
+  top: 656px;
+  right: 267px;
+  background: url('../img/home/meduza_shape_21.png') center /cover;
+}
+
+.meduza-shape_21:hover {
+  background: url('../img/home/meduza_shape_21_inverted.png') center /cover;
+}
