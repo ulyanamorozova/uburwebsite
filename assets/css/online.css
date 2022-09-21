@@ -1,0 +1,70 @@
+@import './main.css';
+
+.page-online .container {
+  background: url('../img/online_background.jpg') center /cover;
+  height: 100vh;
+  font-size: 13px;
+}
+
+.link-back {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.link-scene {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 109px;
+  height: 99px;
+  background: url('../img/button_entry.png') center /cover;
+  text-align: right;
+}
+
+.link-scene_disabled {
+  pointer-events: none;
+}
+
+.link-scene .link-text-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.link-scene .link-text-wrapper span {
+  position: absolute;
+  top: 21px;
+  right: 22px;
+}
+
+.page-text-info {
+  width: 235px;
+  position: absolute;
+  top: 50%;
+  left: 25px;
+}
+
+.page-text-zone {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
+
+.page-text-index {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+}
+
+.form-group {
+  width: 275px;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+
+.form-group .form-hint {
+  display: block;
+}
