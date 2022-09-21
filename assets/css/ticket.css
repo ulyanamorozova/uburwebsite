@@ -1,0 +1,200 @@
+@import './main.css';
+
+.page-ticket {
+  background-color: #ffffff;
+}
+
+.page-ticket .container {
+  background-image: url('../img/ticket/zone_background.png');
+  background-size: 1440px 970px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.link-back {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
+}
+
+.page-arrow-down {
+  right: 28px;
+}
+
+.page-text {
+  position: absolute;
+  top: 174px;
+  right: 263px;
+  width: 240px;
+}
+
+.zones-container {
+  height: 1300px;
+  position: relative;
+  z-index: 1;
+}
+
+.zone-select {
+  position: absolute;
+}
+
+.zone-select .zone-select-button {
+  border: none;
+  outline: 0;
+  width: 46px;
+  height: 37px;
+  background: url('../img/ticket/meduza_zone_1.png') center /cover;
+  padding: 0;
+  cursor: pointer;
+}
+
+.zone-select .zone-select-tooltip {
+  display: none;
+  position: absolute;
+  bottom: -230px;
+  left: 50%;
+  width: 200px;
+  font-size: 13px;
+}
+
+.zone-select-content {
+  position: relative;
+}
+
+.zone-select-content::after {
+  content: "";
+  display: none;
+  position: absolute;
+  bottom: -200px;
+  left: 50%;
+  height: 200px;
+  width: 1px;
+  background-color: #000000;
+}
+
+.zone-select:hover .zone-select-content::after,
+.zone-select:hover .zone-select-tooltip,
+.zone-select_active .zone-select-content::after,
+.zone-select_active .zone-select-tooltip {
+  display: initial;
+}
+
+.zone-select_1 {
+  top: 288px;
+  right: 461px;
+}
+
+.zone-select_2 {
+  top: 489px;
+  right: 137px;
+}
+
+.zone-select_3 {
+  top: 774px;
+  right: 263px;
+}
+
+.zone-select_4 {
+  top: 775px;
+  right: 633px;
+}
+
+.zone-select_5 {
+  top: 564px;
+  left: 564px;
+}
+
+.zone-select_6 {
+  top: 879px;
+  left: 358px;
+}
+
+.zone-select_7 {
+  top: 550px;
+  left: 50px;
+}
+
+.zones-text {
+  width: 215px;
+  position: absolute;
+  left: 70px;
+  bottom: 70px;
+  font-size: 13px;
+}
+
+.ticket-section {
+  position: relative;
+  height: 523px;
+}
+
+.ticket {
+  width: 1362px;
+  height: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #EEEEEE;
+  position: relative;
+  z-index: 1;
+}
+
+.ticket-info {
+  width: 999px;
+  border: 1px solid #000000;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+.ticket-info-fields {
+  width: 490px;
+  margin-left: auto;
+}
+
+.ticket-info-field {
+  border-bottom: 1px solid #000000;
+  font-size: 13px;
+}
+
+.ticket-info-field_zone {
+  margin-top: 40px;
+}
+
+.ticket-info-field_event {
+  margin-top: 20px;
+}
+
+.ticket-info-field_details {
+  margin-top: 80px;
+}
+
+.ticket-cover {
+  width: 363px;
+  height: 230px;
+  background: url('../img/ticket/ticket_cover.png') center /cover;
+}
+
+.ticket-section-text {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 523px;
+  height: 552px;
+  background: url('../img/ticket/ticket_text.png') center /cover;
+  z-index: 2;
+}
+
+.ticket-triangles {
+  width: 20px;
+  height: 233px;
+  background: url('../img/ticket/ticket_triangles.png') center /cover;
+  position: absolute;
+  top: -1px;
+  right: -19px;
+}
+
+.ticket-download {
+  position: absolute;
+  right: 82px;
+  bottom: 104px;
+}
