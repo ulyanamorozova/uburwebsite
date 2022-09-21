@@ -1,0 +1,87 @@
+@import './main.css';
+
+.page-qa {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.link-back {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+  z-index: 4;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.container {
+  height: 100vh;
+  background-image: url('../img/bg_qa.jpg');
+  background-position: bottom;
+  background-size: 1440px auto;
+  background-repeat: no-repeat;
+}
+
+#canvas {
+  width: 1440px;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.text-1 {
+  width: 110px;
+  position: absolute;
+  top: 245px;
+  left: 25px;
+}
+
+.text-2 {
+  width: 110px;
+  position: absolute;
+  top: 466px;
+  left: 25px;
+}
+
+.text-3 {
+  width: 340px;
+  position: absolute;
+  top: 135px;
+  right: 403px;
+}
+
+.text-4 {
+  width: 340px;
+  position: absolute;
+  top: 227px;
+  right: 25px;
+}
+
+.form-group {
+  width: 275px;
+  position: absolute;
+  bottom: 25px;
+  left: 170px;
+}
+
+.form-group .form-hint {
+  display: block;
+  color: #000000;
+  font-size: 13px;
+}
+
+.button-send {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
