@@ -1,0 +1,237 @@
+@import './main.css';
+
+body {
+  overflow-x: hidden;
+}
+
+.page-shop {
+  background-color: #D9D9D9;
+}
+
+.page-shop .container {
+  height: 1655px;
+  background-image: url('../img/shop/shop_text_bg.png');
+  background-position: 275px 0;
+  background-size: 363px 1289px;
+  background-repeat: repeat-y;
+}
+
+.link-back {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 3;
+}
+
+.text-info {
+  width: 226px;
+  position: absolute;
+  top: 349px;
+  left: 925px;
+}
+
+.text-shop {
+  width: 115px;
+  position: absolute;
+  top: 514px;
+  left: 852px;
+}
+
+.product-info {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: #000000;
+  font-size: 13px;
+}
+
+.product-info_white {
+  color: #ffffff;
+}
+
+.product-name,
+.product-price {
+  position: absolute;
+}
+
+.product-book {
+  position: absolute;
+  top: -20px;
+  left: -115px;
+  width: 754px;
+  height: 464px;
+  background: url('../img/shop/shop_book.png') center /cover;
+  z-index: 2;
+}
+
+.product-book .product-name {
+  top: 45px;
+  right: 245px;
+}
+
+.product-book .product-price {
+  bottom: 66px;
+  right: 428px;
+}
+
+.product-binocle {
+  position: absolute;
+  top: 90px;
+  left: 360px;
+  width: 497px;
+  height: 393px;
+  background: url('../img/shop/shop_binocle.png') center /cover;
+  z-index: 2;
+}
+
+.product-binocle .product-name {
+  bottom: 22px;
+  right: 50px;
+}
+
+.product-binocle .product-price {
+  top: 17px;
+  right: 117px;
+}
+
+.product-cream {
+  position: absolute;
+  top: 470px;
+  left: -134px;
+  width: 434px;
+  height: 433px;
+  background: url('../img/shop/shop_cream.png') center /cover;
+  z-index: 2;
+}
+
+.product-cream .product-name {
+  top: 43px;
+  right: 90px;
+  width: 90px;
+}
+
+.product-cream .product-price {
+  top: 114px;
+  right: 44px;
+}
+
+.product-water {
+  position: absolute;
+  top: 470px;
+  left: 805px;
+  width: 444px;
+  height: 473px;
+  background: url('../img/shop/shop_water.png') center /cover;
+  z-index: 2;
+}
+
+.product-water .product-name {
+  bottom: 125px;
+  left: 21px;
+}
+
+.product-water .product-price {
+  top: 26px;
+  right: 162px;
+}
+
+.product-skotch {
+  position: absolute;
+  top: 958px;
+  left: -162px;
+  width: 410px;
+  height: 378px;
+  background: url('../img/shop/shop_skotch.png') center /cover;
+  z-index: 2;
+}
+
+.product-skotch .product-name {
+  top: 148px;
+  right: 47px;
+}
+
+.product-skotch .product-price {
+  top: 26px;
+  right: 162px;
+}
+
+.product-cancelary {
+  position: absolute;
+  top: 957px;
+  right: 229px;
+  width: 574px;
+  height: 365px;
+  background: url('../img/shop/shop_cancelary.png') center /cover;
+  z-index: 2;
+}
+
+.product-cancelary .product-name {
+  top: 233px;
+  right: 38px;
+  width: 111px;
+}
+
+.product-cancelary .product-price {
+  top: 181px;
+  right: 67px;
+}
+
+.figure-1 {
+  position: absolute;
+  top: -440px;
+  right: 295px;
+  width: 616px;
+  height: 720px;
+  background: url('../img/shop/shop_figure_1.png') center /cover;
+  z-index: 1;
+}
+
+.figure-2 {
+  position: absolute;
+  top: -50px;
+  right: -250px;
+  width: 572px;
+  height: 597px;
+  background: url('../img/shop/shop_figure_2.png') center /cover;
+  z-index: 1;
+}
+
+.figure-3 {
+  position: absolute;
+  top: 575px;
+  right: -406px;
+  width: 574px;
+  height: 366px;
+  background: url('../img/shop/shop_figure_3.png') center /cover;
+  z-index: 1;
+}
+
+.figure-4 {
+  position: absolute;
+  top: 958px;
+  right: -240px;
+  width: 444px;
+  height: 667px;
+  background: url('../img/shop/shop_figure_4.png') center /cover;
+  z-index: 1;
+}
+
+.figure-5 {
+  position: absolute;
+  top: 968px;
+  left: 290px;
+  width: 277px;
+  height: 375px;
+  background: url('../img/shop/shop_figure_5.png') center /cover;
+  z-index: 1;
+}
+
+.figure-6 {
+  position: absolute;
+  top: 495px;
+  left: 327px;
+  width: 480px;
+  height: 438px;
+  background: url('../img/shop/shop_figure_6.png') center /cover;
+  z-index: 1;
+}
